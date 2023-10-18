@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Flowchart</title>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Your image description" class="header-image">
+              <h1>Who is my student rep for...?</h1>
+        <h2 class="center-text">BSc Nursing (Adult)</h2>
+        <div class="flowchart">
+            <div class="box">
+                <a>Your student reps for Year 1 of BSc Nursing (Adult) are...<br><br>
+Your student reps for Year 2 of BSc Nursing (Adult) are...<br><br>
+Your student reps for Year 3 of BSc Nursing (Adult) are...<br><br>
+</a>         
+        </div>
+<div class="buttons">
+    <div class="button-container">
+        <a href="index.html"><button type="button" class="button">Back to start</button></a>
+        <button id="backButton" class="back-button">Back to previous page</button>
+    </div>
+</div>
+
+<script>
+    document.getElementById("backButton").addEventListener("click", function(){
+        window.history.back();
+    });
+</script>
+

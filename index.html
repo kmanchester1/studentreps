@@ -4,57 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Homepage</title>
-    
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-730VZFGQ3L"></script>
-    <script>
-       window.dataLayer = window.dataLayer || [];
-       function gtag(){dataLayer.push(arguments);}
-       gtag('js', new Date());
-
-       gtag('config', 'GA_MEASUREMENT_ID');
-    </script>
+    <title>Flowchart</title>
 </head>
 <body>
     <div class="container">
         <img src="logo.png" alt="Your image description" class="header-image">
-        <h1>What do you need help with?</h1>
+        <h1>Who is my student rep for...?</h1>
         <div class="flowchart">
-            <div class="box track-click" data-event-name="theory_module_click">
-          <a href="page2 theory.html">A theory module</a>
+          <div class="box">
+<a href="page2 adult.html">BSc Nursing (Adult)</a>
             </div>
-            <div class="box track-click" data-event-name="placements_click">
-            <a href="page2 placements.html">Placements (including MYEPAD and PSAs)</a>
+            <div class="box">
+<a href="page2 children.html">BSc Nursing (Children's)</a>
             </div>
-            <div class="box track-click" data-event-name="academic_skills_click">
-          <a href="page2 academic skills.html">Academic skills or referencing</a>
+          <div class="box">
+<a href="page2 mental health.html">BSc Nursing (Mental Health)</a>
             </div>
-            <div class="box track-click" data-event-name="student_experience_click">
-              <a href="page2 student experience.html">Student experience or finances</a>
-            </div>
-            <div class="box track-click" data-event-name="wellbeing_click">
-             <a href="page2 wellbeing.html">Personal circumstances and wellbeing (including LSPs)</a>
+              <div class="box">
+<a href="page2 mnurse.html">MNurse</a>
             </div>
         </div>
     </div>
-    <center><small><small><small>For improvements or issues please email Kieran Manchester (k.r.manchester@bradford.ac.uk)<small><small><small></center>
-    <script>
-     // Function to send a custom event to Google Analytics
-     function trackEvent(eventName) {
-       gtag('event', eventName, {
-         'event_category': 'click',
-         'event_label': eventName,
-       });
-     }
-
-     // Add event listeners to the elements you want to track
-     document.querySelectorAll('.track-click').forEach(function(element) {
-       element.addEventListener('click', function() {
-         var eventName = this.getAttribute('data-event-name');
-         trackEvent(eventName);
-       });
-     });
-    </script>
+	<center><small><small><small>For improvements or issues please email Kieran Manchester (k.r.manchester@bradford.ac.uk)<small><small><small></center>
+    
 </body>
 </html>
